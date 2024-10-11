@@ -1,12 +1,19 @@
 # Elevator Simulation
 
-This is a simple elevator simulation written in Python. The program models the behavior of an elevator in a building with multiple floors, allowing users to request floors and simulating the elevator's movement.
+This is a simple elevator simulation written in Python. The program assumes the behavior of a single elevator in a building with a static number of floors, no weight limit, and immediate response time.
 
 ## Features
 
 - Request floors within the building's range.
 - The elevator processes requests in ascending order.
 - Simulates the elevator's movement and current state.
+
+## Potential Features not implemented
+
+- Mechanism to track weight and or number of passangers to not go over the elevator's capacity.
+- States like "doors opening", "maintenance mode", "emergency".
+- Emergency features like a fire alarm or emergency stop button.
+- Allow the elevator to handle requests dynamically instead of starting at the bottom floor and going in ascending order.
 
 ## Requirements
 
