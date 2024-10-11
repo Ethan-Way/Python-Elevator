@@ -8,7 +8,7 @@ This is a simple elevator simulation written in Python. The program assumes the 
 - The elevator processes requests in ascending order.
 - Simulates the elevator's movement and current state.
 
-## Potential Features not implemented
+## Potential Features not Implemented
 
 - Mechanism to track weight and or number of passangers to not go over the elevator's capacity.
 - States like "doors opening", "maintenance mode", "emergency".
